@@ -1,0 +1,51 @@
+.container{
+    position:relative;
+    height:500px;
+    background-color: rgb(255, 0, 0, 0.4);
+}
+
+.bigBox{
+    width:350px;
+    height:150px;
+    margin-inline:auto;
+    padding-top:80px;
+    background-color: rgba(0,0,255, 0.3);
+}
+
+.box{
+    height:100px;
+    width:100px;
+    display:inline-block;
+}
+
+.red{
+    background-color: red;
+    position:fixed;
+    bottom:10px;
+    left:0;
+}
+
+.green{
+    background-color: green;
+    position:absolute;
+    top:0;
+    right:0;
+}
+
+.blue{
+    background-color: blue;
+    position:absolute;
+    bottom:0;
+    right:0;
+}
+
+.loremText{
+    width:5px;
+}
+
+.purple{
+    background-color: purple;
+    position:sticky;
+    top:20px;
+    margin-left:50%;
+}

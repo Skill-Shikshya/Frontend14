@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <!-- enctype="multipart/form-data" -->
+    <form action="#" method="get"  target="_blank" autocomplete="off" novalidate>
+        <label for="fname">First Name:</label>
+        <input id="fname" name="first-name"><br>
+        <label>Last Name:</label>
+        <input name="last-name"><br>
+
+        <lable>Email:</lable>
+        <input type="email" name="email" required><br>
+
+        <!-- <lable>Image</lable>
+        <input type="file"  name="image"><br> -->
+        
+        <lable>Select Cars:</lable>
+
+        <select name="car">
+            <option value="car-1">Car 1</option>
+            <option value="car-2">Car 2</option>
+            <option value="car-3">Car 3</option>
+            <option value="ramro-car">Car 4</option>
+        </select><br>
+
+        <textarea rows="10">
+            value
+        </textarea><br>
+
+        <input type="number" step="10"><br>
+        <input type="range">
+
+        <button>Submit</button>
+    </form>
+
+</body>
+</html>
