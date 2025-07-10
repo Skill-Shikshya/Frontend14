@@ -1,0 +1,37 @@
+/* .flexboxWrapper{
+    display:flex;
+    flex-wrap:wrap;
+    background-color: rgba(255,0,0,0.2);
+    align-content:space-evenly; 
+    align-items:baseline;
+    gap:10px;
+    height:200px;
+} */
+
+.flexboxWrapper{
+    display:grid;
+    grid-template-columns:1fr 2fr 3fr;
+    grid-template-rows:100px 100px;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    color:white;
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+   
+}
+
+.blue{
+    background-color: blue;
+
+}
+

@@ -1,0 +1,40 @@
+.container{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    background-color: pink;
+    height:500px;
+}
+
+.mainImg{
+    position:relative;
+    margin-inline:auto;
+}
+
+.img{
+    height:180px;
+}
+
+#img2{
+    top:-50px;
+    left:-90px;
+    position:absolute;
+}
+
+#img3{
+    top:0;
+    right:-80px;
+    position:absolute;
+}
+
+#img4{
+    bottom:0;
+    left:-100px;
+    position:absolute;
+}
+
+#img5{
+    bottom:-50px;
+    right:-90px;
+    position:absolute;
+}

@@ -1,0 +1,79 @@
+/* h1:hover{
+    background-color: red;
+    cursor: pointer;
+} */
+
+h1:focus{
+    color:blue;
+}
+
+#foucs-example:focus{
+    color:red;
+    background-color: antiquewhite;
+}
+
+/* #frist-child p:not(:first-child){
+    background-color: pink;
+    color:red;
+} */
+
+#frist-child h4:nth-child(1){
+    color:blue;
+    background-color: yellow;
+}
+
+#frist-child h4:has(em){
+    color:green;
+    background-color: rgba(0,255,0,0.5);
+} 
+
+#frist-child p:has(strong){
+    color:green;
+    background-color: rgba(255,0,0.5);
+}
+
+#heading1:before{
+   content:"this is before ";
+   color:red;
+   background-color:#ff000008;
+}
+
+#heading1:after{
+    content:" this is after";
+    color:blue;
+    background-color: #0000ff08;
+    opacity:0.2;
+}
+
+::marker{
+    content:"😜";
+    color:#ff0000;  
+}
+
+a[target]{
+    color:red;
+}
+
+a[target="_top"]{
+    color:green;
+}
+
+p[title~="flower"]{
+ color:pink;
+}
+
+[class$="top"]{
+    color:red;
+}
+
+[class^="top"]{
+    color:blue;
+}
+
+[class|="top"]{
+    color:green;
+}
+
+[class*="te"]{
+    color:gray;
+}

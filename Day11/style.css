@@ -1,0 +1,40 @@
+p{
+    color:blue !important;
+}
+
+.bgImage{
+background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmiro.medium.com%2Fmax%2F1080%2F1*8DDN_DRuSBlM74dVYUjR9Q.png&f=1&nofb=1&ipt=4fb3ff4bf06dd2699aa6cdd09afb1e139725faef0457e199203e7a10a0681763");
+background-size:cover;
+background-repeat: no-repeat;
+background-position:bottom;
+}
+
+.bgImage img{
+    height:120px;
+    width:200px;
+}
+
+
+.flexboxWrapper{
+    display:flex;
+    flex-wrap:wrap;
+    background-color: rgba(255,0,0,0.2);
+    align-content:space-evenly;
+    height:800px;
+
+}
+
+.box{
+    height:100px;
+    width:100px;
+}
+
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}
