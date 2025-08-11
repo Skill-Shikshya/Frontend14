@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+h6{
+    font-size:16px;
+}
+
+p{
+    font-size:12px;
+}
+
+.cardContainer{
+    position:relative;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:200px;
+}
+
+.cardContainer:hover .disappear{
+    opacity: 1;
+    transform: rotate(-5deg) translate(0, -30px) scale(1.2);
+}
+
+.cardContainer:hover{
+    z-index:2;
+    transform:scale(1.1);
+}
+
+.disappear{
+    opacity:0;
+    top:-50px;
+    position:absolute;
+    transform: translateY(0);
+    transition:transform 0.2s ease-in-out;
+}
+
+.hoverCard{
+    background-color: red;
+    color:white;
+    width:fit-content;
+    padding:10px 20px;
+    border-radius: 20px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    position:relative;
+}
+
+img{
+width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border:2px solid #656565;
+  border-radius:200px;
+}
+
+#dimond{
+    position:absolute;
+    bottom:-15px;
+
+}
+
+#dimond svg{
+    width:20px;
+    transform:rotate(180%);
+}
+
+
+.twoPhotos{
+    display:flex;
+    background-color: yellow;
+    justify-content: center;
+}
+
+.box2{
+    left:-20px;
+}
